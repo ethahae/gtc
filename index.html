@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Game Theme Management System</title>
-</head>
-<body>
-	
-</body>
-</html>
+<html lang="en" ng-app="gtms">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="yet another game theme management system">
+    <meta name="author" content="ryan wang">
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <title>Game Theme Management System</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="js/angular.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/ui-bootstrap-tpls-0.13.0.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/ng-websocket.js"></script>
+    <script src="js/ng-cookies.js"></script>
+  </head>
+  <body>
+  	<div ui-view></div>
+  	<a ui-sref="main">show main</a>
+  </body>
+<html>
+
